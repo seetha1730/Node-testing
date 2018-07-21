@@ -1,0 +1,23 @@
+{
+  "name": "node-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seetha1730/Node-testing.git"
+  },
+  "keywords": [
+    "sample",
+    "test"
+  ],
+  "author": "seetha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seetha1730/Node-testing/issues"
+  },
+  "homepage": "https://github.com/seetha1730/Node-testing#readme"
+}
