@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href ="css/style.css">
+    <title>Hello, world!</title>
+</head>
+<body>
+<!--
+    <div class="col-xl-12 indexPage">
+    <h1>Welcome!</h1>
+        <button type="button" class="btn btn-pink col-xl-6 float-L mr-20">Register</button>
+        <button type="button" class="btn btn-blue col-xl-6">Login</button>
+
+    </div>
+-->
+<div class="container createPage">
+    <nav class="navbar navbar-light bg-light">
+
+        <form class="form-inline col-xl-12">
+
+            <!--create store html--->
+            <div class="create-store col-xl-12">
+                <h3 class="col-xl-12">Create Store</h3>
+                <p>Fill out few information about your store and create your online store ...</p>
+                <input class="form-control   col-xl-12 mt-20 clr float-L " type="text" placeholder="Store Name" >
+                <select class="form-control   col-xl-12 mt-20 clr float-L " id="region" name="Region"><option>Regions</option></select>
+                <select class="form-control   col-xl-12 mt-20 clr float-L " id="cuisine" name="Cusine(Indian, Suriyaname) "><option>Cusine(Indian, Suriyaname)</option></option></select>
+
+
+                <div class="float-L clr col-xl-12 padd0">
+
+                <p>max available serving (/day)</p>
+
+                <input class="form-control   col-xl-12 mt-20 clr float-L quantity " type="number" name="quantity" min="1" max="100">
+                </div>
+
+                <div class="float-L clr col-xl-12 padd0">
+                <p>Start date</p>
+                <input class="form-control   col-xl-12 mt-20 clr float-L calender " type="date" >
+                </div>
+
+                <div class="float-L clr col-xl-12 padd0">
+                <p>End date</p>
+                <input class="form-control   col-xl-12 mt-20 clr float-L calender " type="date" >
+                </div>
+
+                <!-- Rounded switch -->
+                <div class="float-L clr col-xl-12 padd0">
+                    <p>Delivery Option</p>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                </div>
+
+                <div class="float-L clr col-xl-12 padd0">
+                    <p> Min eligibility cost for delivery</p>
+                    <input class="form-control   col-xl-12 mt-20 clr float-L min-order " type="date" >
+                </div>
+
+
+            </div>
+            <hr class="half-rule col-xl-11"/>
+
+            <!-- Contact details html-->
+            <div class="contact-details col-xl-12">
+                <h3 class="col-xl-12 ">Contact Details</h3>
+                <input class="form-control   col-xl-12 mt-20 clr float-L " type="text" placeholder=" Name" >
+                <input class="form-control   col-xl-12 mt-20 clr float-L " type="email" placeholder=" Email" >
+                <input class="form-control   col-xl-12 mt-20 clr float-L " type="number" placeholder="Phone Number" >
+                <select class="form-control   col-xl-12 mt-20 clr float-L " id="gender" name="gender"><option>Gender</option></select>
+
+                <textarea class="form-control   col-xl-12 mt-20 clr float-L "></textarea>
+                <button class="btn btn-pink col-xl-3 mt-20 mb-20 clr float-L" type="submit"><a href="storeCreated.html">Create Store </a></button>
+            </div>
+
+
+        </form>
+
+
+
+
+
+
+
+
+    </nav>
+</div>
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="js/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/gijgo@1.9.11/js/gijgo.min.js" type="text/javascript"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
